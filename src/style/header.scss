@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    gap: 40px;
+}
+.header {
+    // .header__inner
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    // .header__logo
+
+    &__logo {
+    }
+
+    // .header__btn
+
+    &__btn {
+        @include btn;
+    }
+}
+.menu {
+    display: flex;
+    gap: 20px;
+
+    // .menu__item
+
+    &__item {
+    }
+
+    // .menu__link
+
+    &__link {
+        @include navLink;
+    }
+}

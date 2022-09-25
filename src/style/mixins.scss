@@ -1,0 +1,68 @@
+$black: #000;
+$white: #fff;
+$blue: #0057FF;
+
+$h1: 56px;
+$h2: 40px;
+$h3: 26px;
+$h4: 24px;
+$h5: 20px;
+$text: 14px;
+
+
+@mixin navLink {
+    font-size: $text;
+    color: $black;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+@mixin btn {
+    background: #0057FF;
+    border-radius: 30px;
+    padding: 14px 40px;
+    font-size: $text;
+    color: $white;
+    cursor: pointer;
+}
+
+@mixin mainHeader {
+    line-height: 66px;
+    text-transform: uppercase;
+    color: $black;
+    font-size: $h1;
+    margin-bottom: 39px;
+}
+
+@mixin cardTitle {
+    font-size: $h5;
+    color: $black;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+@mixin text {
+    font-family: 'Roboto', sans-serif;
+    font-size: $text;
+    color: $black;
+    line-height: 26px;
+    max-width: 486px;
+}
+
+@mixin blueSubtitle {
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: $blue;
+    margin-bottom: 4px;
+}
+
+@mixin title {
+    font-size: $h2;
+    color: $black;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}

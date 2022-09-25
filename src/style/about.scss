@@ -1,0 +1,45 @@
+.section {
+}
+.about {
+
+		// .about__content
+
+		&__content {
+            margin-bottom: 60px;
+		}
+
+		// .about__subtitle
+
+		&__subtitle {
+            @include blueSubtitle;
+		}
+
+		// .about__title
+
+		&__title {
+            @include title;
+		}
+
+		// .about__text
+
+		&__text {
+            @include text;
+            margin: 0 auto;
+		}
+
+		// .about__image
+
+		&__image {
+            margin-bottom: 40px;
+		}
+
+		// .about__link
+
+		&__link {
+            @include navLink;
+		}
+}
+.about-inner {
+    text-align: center;
+    padding: 230px 0 100px;
+}
